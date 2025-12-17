@@ -4,7 +4,7 @@ import CenterManageView from '@/presentation/pages/features/quan-ly-he-thong/qua
 import { useEffect, useState } from 'react'
 
 const CenterManageContainer = () => {
-  const [searchParams, { setParams, getParam }] = useQueryParams()
+  const [_searchParams, { setParams, getParam }] = useQueryParams()
 
   const [filters, setFilters] = useState({
     centerName: getParam('centerName') || '',

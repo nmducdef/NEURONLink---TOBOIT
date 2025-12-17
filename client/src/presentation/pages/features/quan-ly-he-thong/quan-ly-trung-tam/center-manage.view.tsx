@@ -48,7 +48,7 @@ const CenterManageView = ({ data, isLoading, onFilter, onTableChange, pagination
     onFilter?.({ centerName: '', phone: '' })
   }
 
-  const getMenuItems = (record: any): MenuProps['items'] => [
+  const getMenuItems = (_record: any): MenuProps['items'] => [
     {
       key: 'edit',
       label: 'Sửa',
